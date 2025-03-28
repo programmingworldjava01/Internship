@@ -11,9 +11,9 @@ public class SnakeGame extends JPanel implements KeyListener, ActionListener {
     private final int SCALE = 20; // Size of each segment
     private final int WIDTH = 30; // Number of horizontal segments
     private final int HEIGHT = 20; // Number of vertical segments
-    private ArrayList<Point> snake;
+    private ArrayList<Point> snake;//https://github.com/abdulwahid211/GUI-Sockets-Java
     private Point food;
-    private int direction;
+    private int direction;//https://ashishmyles.com/tutorials/tcpchat/index.html
     private boolean running;
     private Timer timer;
 
